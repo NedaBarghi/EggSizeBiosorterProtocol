@@ -38,14 +38,14 @@ In other scripts the filtering of two datasets for each sample is done through f
 ```
 duplicate_runs.ipynb
 ```
-## 5. Egg size distribution using methyl cellulose (MC) as sheath solution
+## 4. Egg size distribution using methyl cellulose (MC) as sheath solution
 
 We used a more viscous sheath solution, e.g. 1x PBS with 4% methyl cellulose, to reduce the flow rate and facilitate the alignment of objects along their long axis when passing through the laser path. In this notebook, we filter data with different concentrations of MC and observe that as the concentration of MC increases the sheath buffer becomes more viscous which will reduce the flow rate. The slower flow rate facilitates the alignment of objects along the long axis while passing through the laser path. However, the increased viscosity of the sheath buffer dramatically reduces the speed of analysis. 
 
 ```
 methyl_cellulose.ipynb
 ```
-## 6. Manual egg size measurement
+## 5. Manual egg size measurement
 
 To validate the estimated egg size using Biosorter®, we sorted eggs from a gate corresponding to 400-500 µm in a 96-well plate and manually measured the eggs. We observed a high correlation between the manual and biosorter® size measurements.
 
@@ -56,7 +56,7 @@ All the file and folder names in the script and Zenodo repository are the same.
 manual_measurement.ipynb
 ```
 
-## 7. Sort recovery
+## 6. Sort recovery
 
 We evaluated the efficiency of sorting as the sort recovery which is the percentage of objects that were sorted and dispensed as a fraction of all the objects fulfilling sorting criteria, i.e. size. 
 
@@ -67,7 +67,7 @@ All the file and folder names in the script and Zenodo repository are the same.
 sort_recovery.ipynb
 ```
 
-## 8. Variation in egg size distribution among *Drosophila* strains
+## 7. Variation in egg size distribution among *Drosophila* strains
 
 We have measured the egg size distributions in *D. simulans* (12 strains), *D. melanogaster* (1 strain), *D. erecta* (1 strain), *D. santomea* (1 strain) and *D. mauritiana* (1 strain). in section **4. The size distribution of Drosophila inbred lines** on the notebook, each data set is filtered using the procedure described in *filter_size_optical_density.ipynb*. 
 
