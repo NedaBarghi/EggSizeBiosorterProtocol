@@ -67,8 +67,14 @@ All the file and folder names in the script and Zenodo repository are the same.
 sort_recovery.ipynb
 ```
 
-## 8. Size measurement of throughput Intra- and inter-specific variation in egg size distribution
+## 8. Variation in egg size distribution among *Drosophila* strains
 
+We have measured the egg size distributions in *D. simulans* (12 strains), *D. melanogaster* (1 strain), *D. erecta* (1 strain), *D. santomea* (1 strain) and *D. mauritiana* (1 strain). in section **4. The size distribution of Drosophila inbred lines** on the notebook, each data set is filtered using the procedure described in *filter_size_optical_density.ipynb*. 
+
+In section **4.4 Comparison of egg size distributions based on filtering thresholds** of the notebook we performed size filtering steps (the 1st and last steps deccribed in **2. In silico filtering of the Biosorter® data** above) using both a sample-specific threhsold and a constant threshold computed as the average threshold across all datasets. We computed summary statistics for each filtered dataset and observed a high correlation in the number and average size of the filtered small objects, the number of eggs and mean, and median of their distribution. Therefore, for all the subsequent analysis sample-specific thresholds were used. We then compute the speed of measurement for all the datasets in section **4.5 Compute the measurement speed** of the notebook. 
+
+For each sample two datasets are required: The first file is the Biosorter® output that contains information about TOF, Extinction and fluorescence absorbance (summary file). The second file contains the optical density data. Biosorter® data can be accessed here:
+All the file and folder names in the script and Zenodo repository are the same.
 
 ```
 Eggsize.ipynb
