@@ -76,6 +76,16 @@ For each sample two datasets are required: The first file is the Biosorter® out
 Eggsize.ipynb
 ```
 
-The scripts were written in Python 3. 
+## 8. Egg-to-adult viability assay
+
+We performed egg-to-adult viability assay to determine the effect of submersion in PBS and passing through the flow cell in the Biosorter® on the development of eggs to adults.
+
+Data can be accessed here: ./Data/PBS_sort_viability_mod.txt. There are 5 columns in the file which correspond to PBS_expo (the duration of immersion in PBS, 4, 6, and 8 hours), subreplicate (different sets for each treatment), egg_num (number of eggs in each vial), fly_num (number of eclosed flies), and sort (the sort status, whether the eggs were sorted by Biosorter® or not).
+
+```
+PBS_assay_hatch_stat_final.R
+```
+
+The scripts were written in Python 3 and R version 3.6.3. 
 
 For any questions please contact me at barghi.neda@gmail.com. 
