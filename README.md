@@ -16,7 +16,7 @@ ref_bead_size.ipynb
 
 This notebook is a step by step guide that describes the in silico filtering steps on Biosorter® data. The 1st filtering step is based on the size. The filtered objects at this step are mostly egg debris. The second filtering step involved removing the misaligned eggs based on ellipticalness index (EI) and the ratio of the maximum optical density of an object to its time of flight (W/L) values estimated from the optical density data. The last filtering step is to remove the objects in the first peak of distribution after removal of the misaligned eggs. 
 
-For each sample two datasets are required: The first file is the Biosorter® output that contains information about TOF, Extinction and fluorescence absorbance (summary file). The second file contains the optical density data. Data can be accessed here: ./data/Drosophila_eggs_OD1_5_1xPBS_21-12-2021.zip. All the file and folder names are the same as used in the script.
+For each sample two datasets are required: The first file is the Biosorter® output that contains information about TOF, Extinction and fluorescence absorbance (summary file). The second file contains the optical density data. Data can be accessed here: ./data/Drosophila_eggs_OD1_5_1xPBS_21-12-2021_1.zip and ./data/Drosophila_eggs_OD1_5_1xPBS_21-12-2021_2.zip. All the file and folder names are the same as used in the script.
 
 In other scripts the filtering of Biosorter® data is done through function **filter_size_EI_WL_size**.
 
@@ -28,7 +28,7 @@ filter_size_optical_density.ipynb
 
 We ran few samples on two consecutive days meaning the eggs were laid by females of different age. In this notebook we filter all datasets and compare the size distribution of eggs laid by females of different age. The estimated size distributions are comparable and datasets can be pooled.
 
-For each sample two datasets are required: The first file is the Biosorter® output that contains information about TOF, Extinction and fluorescence absorbance (summary file). The second file contains the optical density data. Data can be accessed here: ./data/Drosophila_eggs_OD1_5_1xPBS_21-12-2021.zip and ./data/Drosophila_eggs_OD1_5_1xPBS_22-12-2021.zip. All the file and folder names are the same as used in the script.
+For each sample two datasets are required: The first file is the Biosorter® output that contains information about TOF, Extinction and fluorescence absorbance (summary file). The second file contains the optical density data. Data can be accessed here: ./data/Drosophila_eggs_OD1_5_1xPBS_21-12-2021_1.zip, ./data/Drosophila_eggs_OD1_5_1xPBS_21-12-2021_2.zip and ./data/Drosophila_eggs_OD1_5_1xPBS_22-12-2021.zip. All the file and folder names are the same as used in the script.
 
 In other scripts the filtering of two datasets for each sample is done through function **filter_size_EI_WL_size_pool**.
 
@@ -70,7 +70,7 @@ We have measured the egg size distributions in *D. simulans* (12 strains), *D. m
 
 In section **4.4 Comparison of egg size distributions based on filtering thresholds** of the notebook we performed size filtering steps (the 1st and last steps deccribed in **2. In silico filtering of the Biosorter® data** above) using both a sample-specific threhsold and a constant threshold computed as the average threshold across all datasets. We computed summary statistics for each filtered dataset and observed a high correlation in the number and average size of the filtered small objects, the number of eggs and mean, and median of their distribution. Therefore, for all the subsequent analysis sample-specific thresholds were used. We then compute the speed of measurement for all the datasets in section **4.5 Compute the measurement speed** of the notebook. 
 
-For each sample two datasets are required: The first file is the Biosorter® output that contains information about TOF, Extinction and fluorescence absorbance (summary file). The second file contains the optical density data. Biosorter® data can be accessed here: ./data/Drosophila_eggs_OD1_5_1xPBS_21-12-2021.zip and ./data/Drosophila_eggs_OD1_5_1xPBS_22-12-2021.zip. All the file and folder names are the same as used in the script.
+For each sample two datasets are required: The first file is the Biosorter® output that contains information about TOF, Extinction and fluorescence absorbance (summary file). The second file contains the optical density data. Biosorter® data can be accessed here: ./data/Drosophila_eggs_OD1_5_1xPBS_21-12-2021_1.zip, ./data/Drosophila_eggs_OD1_5_1xPBS_21-12-2021_2.zip and ./data/Drosophila_eggs_OD1_5_1xPBS_22-12-2021.zip. All the file and folder names are the same as used in the script.
 
 ```
 Eggsize.ipynb
