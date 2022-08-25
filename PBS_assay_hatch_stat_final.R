@@ -38,7 +38,7 @@ for (i in  c("4","6","8")){
 hatch_sub <- subset(hatch,(hatch$sort == 'no'))
 
 # assign a binomial statistic to data
-#Each egg is a success or failure (whether it hatched or not), so if you have 40 larvae our of 50 eggs you have a 2 column matrix:(40,10)
+#Each egg is a success or failure (whether it hatched or not), so if you have 40 larvae out of 50 eggs you have a 2 column matrix:(40,10)
 success <- cbind(hatch_sub$fly_num,hatch_sub$egg_num-hatch_sub$fly_num)
 
 #check the average and sd of eclosed flies for each treatment after removing sorted data
@@ -215,7 +215,7 @@ hatch_srt$PBS_expo <- factor(hatch_srt$PBS_expo, levels = c("6"))
 str(hatch_srt)
 
 # assign a binomial statistic to data
-#Each egg is a success or failure (whether it hatched or not), so if you have 40 larvae our of 50 eggs you have a 2 column matrix:(40,10)
+#Each egg is a success or failure (whether it hatched or not), so if you have 40 larvae out of 50 eggs you have a 2 column matrix:(40,10)
 success_srt <- cbind(hatch_srt$fly_num,hatch_srt$egg_num-hatch_srt$fly_num)
 
 #sneak peak
