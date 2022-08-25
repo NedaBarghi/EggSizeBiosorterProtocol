@@ -3,7 +3,7 @@
 This folder contains all the scripts needed to reproduce the results in Barghi N and Ramirez-Lanzas C. (2022). High throughput and accurate size measurements of Drosophila eggs using large particle flow cytometry. bioRxiv.
 
 ## 1. Reference beads
-This notebook is a step by step guide that describes using the reference beads to convert time of flight (TOF) to size (μm). The computed slope and intercept of these reference beads are used to convert TOF of all subsequent Biosorter® runs to size. 
+This notebook is a step by step guide that describes how to convert time of flight (TOF) to size (μm) using the reference beads. The computed slope and intercept of these reference beads are used to convert TOF of all subsequent Biosorter® runs to size. 
 
 The required data is the Biosorter® output that contains information about TOF and Extinction (summary file). Note that for this analysis the original Biosorter data is copied to an Excel file. Data can be accessed here: ./data/Drosophila_eggs_OD1_5_1xPBS_26-03-2021.zip. All the file and folder names are the same as used in the script.
 
