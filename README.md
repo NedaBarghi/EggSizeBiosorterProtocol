@@ -76,7 +76,7 @@ All the file and folder names are the same as used in the script.
 sort_recovery_speed.ipynb
 ```
 
-## 7. Variation in egg size distribution among *Drosophila* strains
+## 7. Egg size distribution among *Drosophila* strains
 
 We have measured the egg size distributions in *D. simulans* (12 strains), *D. melanogaster* (1 strain), *D. erecta* (1 strain), *D. santomea* (1 strain) and *D. mauritiana* (1 strain). in section **4. The size distribution of Drosophila inbred lines** on the notebook, each data set is filtered using the procedure described in *filter_size_optical_density.ipynb*. 
 
@@ -95,7 +95,29 @@ We performed egg-to-adult viability assay to determine the effect of submersion 
 ```
 PBS_assay_hatch_github.R
 ```
-## 9. Biosorter® output files
+
+## 9. Variation of egg length and width in an outbred population of *Drosophila*
+
+We measured the length and width of 160 eggs manually using ImageJ. Data can be accessed here: ./Data/manual_measurement_length_width_12042022.xlsx
+
+```
+length_width_distribution.ipynb
+```
+
+## 10. Size distribution of eggs before and after submersion in PBS
+
+We assessed the effect of submersion in PBS on the egg size by measuring the egg size before and after submersion in PBS. The size of a total of 46 eggs were manually measured using ImageJ. The eggs were then submerged for 2.5 hours and their sizes were manually measured.
+
+Data can be accessed here: 
+./Data/merged_egg_size_beforeafterPBS_17112022.xlsx
+./Data/merged_egg_size_beforePBS_29112022.csv
+./Data/merged_egg_size_afterPBS_29112022.csv
+
+```
+PBS_submersion.ipynb
+```
+
+## 11. Biosorter® output files
 
 For the description of the data in summary file of Biosorter®, please refer to pages 77-78 in Biosorter® manual  that can be accessed here: https://med.stanford.edu/content/dam/sm/htbc/documents/eq/BioSorter-manual.pdf
 
