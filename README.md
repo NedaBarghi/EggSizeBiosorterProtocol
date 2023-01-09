@@ -80,7 +80,9 @@ Eggsize.ipynb
 
 We performed egg-to-adult viability assay to determine the effect of submersion in PBS and passing through the flow cell in the Biosorter® on the development of eggs to adults.
 
-Data can be accessed here: ./Data/PBS_sort_viability_mod.txt. There are 5 columns in the file which correspond to PBS_expo (the duration of immersion in PBS, 4, 6, and 8 hours), subreplicate (different sets for each treatment), egg_num (number of eggs in each vial), fly_num (number of eclosed flies), and sort (the sort status, whether the eggs were sorted by Biosorter® or not).
+Data can be accessed here: ./Data/PBS_viability_Nov242022_mod.txt. There are 9 columns in the file: vial_num, replicate, flies_1stcount, flies_2ndcount, flies_3rdcount, flies_4thcount, total_fly, treatment, egg_num. 
+PBS_expo (the duration of immersion in PBS, 4, 6, and 8 hours), subreplicate (different sets for each treatment), egg_num (number of eggs in each vial), fly_num (number of eclosed flies), and sort (the sort status, whether the eggs were sorted by Biosorter® or not).
+vial_num	replicate	flies_1stcount	flies_2ndcount	flies_3rdcount	flies_4thcount	total_fly	treatment	egg_num
 
 ```
 PBS_assay_hatch_stat_final.R
