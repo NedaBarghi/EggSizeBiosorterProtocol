@@ -48,8 +48,6 @@ methyl_cellulose.ipynb
 
 To validate the estimated egg size using Biosorter®, we sorted eggs from 6 gates corresponding to 400-600 µm in three 96-well plates and manually measured the eggs. We observed a high correlation between the manual and biosorter® size measurements.
 
-For each sample two datasets are required: The first file is the Biosorter® output that contains information about TOF, Extinction and fluorescence absorbance (summary file). The second file contains the optical density data. 
-
 biosorter® data and the manual measurements can be accessed here: ./data/biosorter_plus_manual_measurement_3plates.csv
 The columns in this dataset are 'Row', 'Column', 'plate', 'TOF', 'Size', ''Length'.
 'Row' and 'Column' correspond to the row and column on the 96-well plate. 'plate' refers to the number of 96-well plate. 'TOF' is the time-of-flight measurement from large particle flow cytometry. 'Size' is the estimated size using 'TOF'. You can refer to section Reference beads for the details of the conversion. 'Length' is the manually measured egg length using ImageJ. The units of 'Size' and 'Length' are in μm. This script generated **Fig. 2A**.
