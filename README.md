@@ -39,7 +39,7 @@ duplicate_runs.ipynb
 
 We used a more viscous sheath solution, e.g. 1x PBS with 4% methyl cellulose, to reduce the flow rate and facilitate the alignment of objects along their long axis when passing through the laser path. In this notebook, we filter data with different concentrations of MC and observe that as the concentration of MC increases the sheath buffer becomes more viscous which will reduce the flow rate. The slower flow rate facilitates the alignment of objects along the long axis while passing through the laser path. However, the increased viscosity of the sheath buffer dramatically reduces the speed of analysis. 
 
-For each sample two datasets are required: The first file is the Biosorter® output that contains information about TOF, Extinction and fluorescence absorbance (summary file). The second file contains the optical density data. Data can be accessed here: ./data/Drosophila_eggs_OD1_5_1xPBS_20-06-2022.zip. All the file and folder names are the same as used in the script. This script generated **Fig. S3**.
+For each sample two datasets are required: The first file is the Biosorter® output that contains information about TOF, Extinction and fluorescence absorbance (summary file). The second file contains the optical density data. Data can be accessed here: ./data/Drosophila_eggs_OD1_5_1xPBS_20-06-2022.zip. All the file and folder names are the same as used in the script. This script generated **Fig. S2**.
 
 ```
 methyl_cellulose.ipynb
@@ -92,16 +92,7 @@ We performed egg-to-adult viability assay to determine the effect of submersion 
 PBS_assay_hatch_github.R
 ```
 
-## 9. Variation of egg length and width in *Drosophila*
-
-We measured the length and width of 160 eggs manually using ImageJ. Data can be accessed here: ./Data/manual_measurement_length_width_12042022.xlsx
-This script generated **Fig. S1**.
-
-```
-length_width_distribution.ipynb
-```
-
-## 10. Egg size distribution after submersion in PBS
+## 9. Egg size distribution after submersion in PBS
 
 We assessed the effect of submersion in PBS on the egg size by measuring the egg size before and after submersion in PBS. The size of a total of 46 eggs were manually measured using ImageJ. The eggs were then submerged for 2.5 hours and their sizes were manually measured. This script generated **Fig. 2B**.
 
@@ -114,7 +105,7 @@ Data can be accessed here:
 PBS_submersion.ipynb
 ```
 
-## 11. Biosorter® output files
+## 10. Biosorter® output files
 
 For the description of the data in summary file of Biosorter®, please refer to pages 77-78 in Biosorter® manual  that can be accessed here: https://med.stanford.edu/content/dam/sm/htbc/documents/eq/BioSorter-manual.pdf
 
